@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdDemo.Web", "CiCdDemo.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdDemo.Web.Tests", "CiCdDemo.Web.Tests\CiCdDemo.Web.Tests.csproj", "{5D5EB3BF-B231-458B-91C7-121176D40B7A}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "CiCdDemo.Deployment", "..\CiCdDemo.Deployment\CiCdDemo.Deployment.deployproj", "{DCF4D9BF-589A-43E1-9D2B-9C94BFC61FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D5EB3BF-B231-458B-91C7-121176D40B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5EB3BF-B231-458B-91C7-121176D40B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5EB3BF-B231-458B-91C7-121176D40B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF4D9BF-589A-43E1-9D2B-9C94BFC61FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF4D9BF-589A-43E1-9D2B-9C94BFC61FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF4D9BF-589A-43E1-9D2B-9C94BFC61FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF4D9BF-589A-43E1-9D2B-9C94BFC61FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

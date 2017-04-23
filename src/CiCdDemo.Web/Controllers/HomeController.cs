@@ -23,6 +23,7 @@ namespace CiCdDemo.Web.Controllers
 
         public ActionResult Contact()
         {
+            // Adding more comments 
             ViewBag.Message = "Your contact page.";
 
             return View();
